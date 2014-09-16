@@ -6,7 +6,6 @@ set viminfo='20,\"1000'
 alias ls='ls --color';
 alias vi='vim';
 alias gg='git grep -e';
-PS1='\e[0;37m\u\$ \e[m ';
 set -o vi;
 
 set LANG=en_US.UTF-8
