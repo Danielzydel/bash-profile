@@ -1,12 +1,12 @@
 # ~/.bash_profile: executed by bash(1) for login shells.
 
-umask 022
+umask 002
 
 set viminfo='20,\"1000'
 alias ls='ls --color';
 alias vi='vim';
 alias gg='git grep -e';
-PS1='\e[0;30m\u->\e[34m\w\e[0m\$ ';
+PS1='\e[0;37m\u\$ \e[m ';
 set -o vi;
 
 set LANG=en_US.UTF-8
